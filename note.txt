@@ -1,0 +1,11 @@
+let params = new HttpParams().set("paramName",paramValue).set("paramName2", paramValue2); //Create new HttpParams
+this.http.get(url, {headers: headers, params: params}); 
+
+const params = new HttpParams().append('param', 'value');
+this.http.get('url', {headers, params}); 
+
+
+let params: HttpParams = new HttpParams();
+params = params.set('notes', 'Some notes to send');
+
+this.httpService.post<any>(url, bodyData, headers, params);

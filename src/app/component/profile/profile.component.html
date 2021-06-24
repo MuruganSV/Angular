@@ -1,0 +1,94 @@
+<app-header></app-header>
+<div class="main-view">
+  <div class="home-content-wrapper">
+    <div class="home-profile-wrapper">
+      <div class="profile-details">
+        <img [src]="userImg" width="120" height="100" class="profile-img">
+      </div>
+    </div>
+    <div class="home-profile-wrapper border">
+      <!-- hide profile details if editing the form-->
+      <ul id="profileDetails" class="profile-details">
+        <li class="list-items" >
+          Name:
+          <span id="usernameVal"  >
+            {{userDetails?.user_name}}
+          </span>
+
+        </li>
+        <li class="list-items">
+          Mobile:
+          <span id="mobileVal">
+            {{userDetails?.user_mobile}}
+          </span>
+        </li>
+        <li class="list-items">
+          Email:
+          <span id="emailVal" class="list-items" >
+            {{userDetails?.user_email}}
+          </span>
+        </li>
+        <li class="list-items">
+          Location:
+          <span id="locationVal" class="list-items">
+            {{userDetails?.location}}
+          </span>
+        </li>
+      </ul>
+
+      <!-- show edit profile form if edit profile button clicked-->
+      <form [formGroup]="editProfileForm" *ngIf="editProfile" id="editProfileForm" class="ro-form profile-form">
+        <h2>Edit your profile</h2>
+        <div class="form-group">
+          <label for="username">
+            Name
+          </label>
+          <input type="text" formControlName="userName" id="consumerName" value="" placeholder="Name">
+
+        </div>
+        <div class="form-group">
+          <label for="mobile">
+            Contact number
+          </label>
+          <input type="number" formControlName="mobile" value="" id="mobile" placeholder="mobile number">
+          <div *ngIf="mobile.touched && mobile.errors" class="form-error-messages">
+            {{mobileErrMsg}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">
+            Email
+          </label>
+          <input type="email" formControlName="email" value="" id="email" placeholder="Email">
+          <div *ngIf="email.touched && email.errors" class="form-error-messages">
+            {{emailErrMsg}}
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="location">
+            Location
+          </label>
+          <input  type="text" formControlName="location" value="" id="location" placeholder="Location">
+          <div *ngIf="location.touched && location.errors" class="form-error-messages">
+            {{locationErrMsg}}
+          </div>
+        </div>
+
+        <!-- disable button if form not valid -->
+        <!-- call changeMyProfile method when clicking on this button-->
+        <button class="btn" [disabled]="editProfileForm.invalid" type="submit" (click)="changeMyProfile()" id="editSubmitBtn">Make changes</button>
+      </form>
+      <div class="profile-edit-choice">
+        <!-- show button if not editing the form-->
+        <!-- call editMyProfile method when clicking on this button-->
+        <button id="editProfileBtn" *ngIf="!editProfile" (click)="editMyProfile()" class="prompt-btn btn">
+        Edit profile</button>
+
+        <!-- show button if editing the form-->
+        <!-- call discardEdit method when clicking on this button-->
+        <button id="editDiscardBtn" *ngIf="editProfile" (click)="discardEdit()" class="alert-btn btn">Discard</button>
+      </div>
+    </div>
+  </div>
+</div>

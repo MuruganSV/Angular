@@ -1,0 +1,435 @@
+ent method with selected appointment id FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1821:37)
+Chrome Headless 78.0.3904.108 (Linux x86_64): Executed 149 of 154 (113 FAILED) (0 secs / 1.213 secs)
+Chrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should call cancelAppointment method with selected appointment id FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dChrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should call scheduleAppointment method for valid form input" FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1821:37)
+Chrome Headless 78.0.3904.108 (Linux x86_64): Executed 150 of 154 (114 FAILED) (0 secs / 1.228 secs)
+Chrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should call scheduleAppointment method for valid form input" FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dChrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should navigate to requested_appointments page after booking an appointment FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1821:37)
+Chrome Headless 78.0.3904.108 (Linux x86_64): Executed 151 of 154 (115 FAILED) (0 secs / 1.278 secs)
+Chrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should navigate to requested_appointments page after booking an appointment FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dChrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should call deleteAppointment method of DataService with selected appointment id FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1821:37)
+Chrome Headless 78.0.3904.108 (Linux x86_64): Executed 152 of 154 (116 FAILED) (0 secs / 1.288 secs)
+Chrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should call deleteAppointment method of DataService with selected appointment id FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11986:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11995:1)
+            at refreshComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13449:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dChrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should get diseasesList when clicking on "Book Appointment" FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1821:37)
+Chrome Headless 78.0.3904.108 (Linux x86_64): Executed 153 of 154 (117 FAILED) (0 secs / 1.301 secs)
+Chrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should get diseasesList when clicking on "Book Appointment" FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dChrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should call scheduleAppointment method of DataService with appointment details FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1821:37)
+Chrome Headless 78.0.3904.108 (Linux x86_64): Executed 154 of 154 (118 FAILED) (0 secs / 1.314 secs)
+Chrome Headless 78.0.3904.108 (Linux x86_64) ViewPatientComponent should call scheduleAppointment method of DataService with appointment details FAILED
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+        error properties: Object({ rejection: Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays., promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }),  ...
+        Error: Uncaught (in promise): Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+        Error: Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays.
+            at NgForOf.ngDoCheck (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js:4406:1)
+            at callHook (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4762:1)
+            at callHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4722:1)
+            at executeInitAndCheckHooks (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4662:1)
+            at selectIndexInternal (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9724:1)
+            at ɵɵadvance (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:9685:1)
+            at ViewPatientComponent_div_1_form_2_Template (ng:///ViewPatientComponent.js:206:5)
+            at executeTemplate (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:12129:1)
+            at refreshView (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11968:1)
+            at refreshDynamicEmbeddedViews (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13360:1)
+            at resolvePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+            at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:864:1
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+            at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+            at Zone.runTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:167:1)
+            at invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:480:1)
+            at ZoneTask.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:469:1)
+            at FakeAsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1546:1)
+            at flushMicrotasks (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dChrome Headless 78.0.3904.108 (Linux x86_64): Executed 154 of 154 (118 FAILED) (1.607 secs / 1.314 secs)
+TOTAL: 118 FAILED, 36 SUCCESS
+TOTAL: 118 FAILED, 36 SUCCESS
